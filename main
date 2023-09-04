@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           bermanhebrewacademy.myschoolapp.com - 9/4/2023, 5:34:22 PM
+@namespace      https://www.github.com/KZHAWE/Customizable-MySchoolApp-Background
+@version        3.0.0
+@description    Change the background of MySchoolApp and add a cute doodle!
+@author         Me
+==/UserStyle== */
+@-moz-document domain("myschoolapp.com") {
+    /* To remove the doodle, just change delete lines 11-12 :D Note that the doodle picture is NOT mine (it's royalty-free from Pixabay). */
+    body {
+        background-image: url('https://cdn.pixabay.com/photo/2019/05/05/21/42/doodle-4181783_1280.png');
+        /* Replace with your image URL */
+        background-repeat: repeat;
+        background-color: #2dd7d6;
+        /* Background color behind the pattern */
+    }
+}
